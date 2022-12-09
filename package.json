@@ -1,0 +1,27 @@
+{
+  "name": "weather-web-app",
+  "version": "1.0.0",
+  "description": "A full stack webapp",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResponseTime/Weather-Web-App.git"
+  },
+  "author": "ResponseTime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ResponseTime/Weather-Web-App/issues"
+  },
+  "homepage": "https://github.com/ResponseTime/Weather-Web-App#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
