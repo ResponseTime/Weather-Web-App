@@ -1,13 +1,14 @@
 const express = require("express");
 const fetch = require("node-fetch");
 const app = express();
-const port = 5000;
+require("dotenv").config();
+const port = process.env.PORT;
 
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "7f77a966fcmsha025da6e15b104dp127106jsn46a613e82427",
-    "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com",
+    "X-RapidAPI-Key": process.env.API_KEY,
+    "X-RapidAPI-Host": process.env.HOST,
   },
 };
 
